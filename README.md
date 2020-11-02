@@ -31,6 +31,31 @@ git clone https://github.com/rg98098/space_x_program.git
 npm install
 ```
 
+3. To add CSS modules, need to configure in webpack configuration.<br/>
+   ```npm run eject```
+   This command will remove the single build dependency from your project. Now open webpack.config.dev.js, and add this in the css loader's options
+   ```modules : true, localIdentName:'[name]__[local]__[hash:base64:5]' ```
+   like this: 
+   ```
+            options: {
+                importLoaders: 1,
+                modules: true,
+                localIdentName:'[name]__[local]__[hash:base64:5]'
+            }
+   ```
+   Similarly add into webpack.config.prod.js 
+   ```
+            options: {
+                importLoaders: 1,
+                minimize: true,
+                sourceMap: shouldUseSourceMap,
+                modules: true,
+                localIdentName:'[name]__[local]__[hash:base64:5]'
+            },
+   ```
+    :warning: ***This is a one-way operation. Once you eject, you can’t go back!***
+
+
 ### Run the application
 
 Use this command to run the application : ```npm start ```
