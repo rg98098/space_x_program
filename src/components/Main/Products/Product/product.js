@@ -11,7 +11,7 @@ const product = (props) => {
         <div className={`card ${classes.CardMinHeight}`}>
           <img className={classes.Image}  src={props.imgUrl} alt="Card"/>
           <div className="card-body">
-            <div className={classes.FontSize}>
+            <div className= {`${classes.FontSize} ${classes.CardBodyMinHeight}`}>
             <span className={classes.Heading}><b>{props.missionName} #{props.flightNumber}</b></span>
               <br />
               <span><strong>Mission Ids:</strong></span>
