@@ -8,7 +8,7 @@ Problem statement: Develop a front-end application which would help users list a
 
 [SPACE_X_PROGRAM](http://ec2-15-207-29-244.ap-south-1.compute.amazonaws.com:3000/)
 
-## API Used
+### API Used
 
 API end point for the first-time page load without any Filters: `https://api.spaceXdata.com/v3/launches?limit=100`
 
@@ -22,7 +22,19 @@ API end point with Filters applied:
 
 ### Installation
 
+1. Clone the repo 
+```sh
+git clone https://github.com/rg98098/space_x_program.git
+```
+2. Install npm packages
+```sh
+npm install
+```
 
+### Features
+
+1. Open page
+![Open Page](images/OpenPage.png)
 
 
 
