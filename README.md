@@ -34,7 +34,7 @@ npm install
 ### Features
 
 1. Open page
-![Open Page](images/OpenPage.png)
+![](images/OpenPage.PNG)
 
 
 
