@@ -1,0 +1,32 @@
+.Button {
+    margin-bottom: 1em;
+    background-color: #C5E09B;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 0.3em;
+    width: 50%
+} 
+
+.Clicked:after{
+    border: none;
+    outline: none;
+}
+
+
+.Button:hover {
+    background-color: #7CBA01;
+}
+
+
+.Clicked:active,.Clicked:focus { outline:none;}
+
+.Clicked {
+    background-color: #7CBA01;
+}
+
+.NotClicked {
+    background-color: #C5E09B;
+}
+
+.NotClicked:active,.NotClicked:focus { outline:none;}

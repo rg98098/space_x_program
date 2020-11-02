@@ -1,0 +1,13 @@
+.ErrorTemplate {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.ErrorActions {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.ErrorWrapper {
+    margin-top: 10em;
+}

@@ -1,0 +1,41 @@
+.Outermain {
+    overflow-x: hidden;
+    margin-top: 2em;
+    padding-top: 1em;
+  }
+  
+  .Wrapper {
+    margin-right: -20px;
+    padding: 0 10px 0 10px;
+  }
+  
+
+  .Heading {
+    font-weight: 600;
+    margin: 0.5em 0.5em 0.1em 0.8em;
+  }
+  
+  .Filters {
+    box-sizing: border-box;
+    width: 20%;
+    padding-right: 20px;
+    float: left;
+  }
+  
+  .FullWidth {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .Filters {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .Filters {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
