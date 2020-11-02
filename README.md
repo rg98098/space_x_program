@@ -37,7 +37,7 @@ Use this command to run the application : ```npm start ```
 
 ### Features
 
-1. Open page
+1. Home page
 ![](images/OpenPage.PNG)
 
 2. Filter by Landing year from URL<br />
