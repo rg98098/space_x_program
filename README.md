@@ -31,6 +31,10 @@ git clone https://github.com/rg98098/space_x_program.git
 npm install
 ```
 
+### Run the application
+
+Use this command to run the application : ```npm start ```
+
 ### Features
 
 1. Open page
