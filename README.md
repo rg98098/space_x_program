@@ -36,7 +36,17 @@ npm install
 1. Open page
 ![](images/OpenPage.PNG)
 
+2. Filter by Landing year from URL<br />
+    For eg: Filter by launch_year=2019 (http://ec2-15-207-29-244.ap-south-1.compute.amazonaws.com:3000/?launch_year=2019)
 
+3. Filter by Successful Launch from url <br />
+    For eg: Filter by launch_success=true (http://ec2-15-207-29-244.ap-south-1.compute.amazonaws.com:3000/?launch_success=true)
+
+4. Filter by Successful Landing from url <br />
+     For eg: Filter by land_success=true (http://ec2-15-207-29-244.ap-south-1.compute.amazonaws.com:3000/?land_success=true)
+
+5. Filter by all parameters from url <br />
+     For eg: Filter by land_success=true (http://ec2-15-207-29-244.ap-south-1.compute.amazonaws.com:3000/?launch_success=true&land_success=true&launch_year=2019)
 
 
 ## Contributor
